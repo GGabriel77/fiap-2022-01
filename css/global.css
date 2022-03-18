@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
   }
   html {
     font-size: 62.5%
@@ -19,8 +19,8 @@
     height: 100%
   }
   body {
-    color: white;
-    background-color: #060618;
+    color: black;
+    background-color: white;
     font-family:  'Rubik', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 
@@ -31,4 +31,99 @@
     padding: 18px;
     max-width: 400px;
     margin: 0 auto;
+}
+
+.menu
+{
+       margin: auto;
+       padding: 0%;
+       height: 80px;
+       background-color: #50f;
+       padding: 0 20px;
+       color: white;
+       display: flex;
+       /* Define onde cada item será exibido horizontalmente em relação ao container. */
+       justify-content: space-between; 
+       align-items: center;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.idwall
+{
+    width: 80px; 
+}
+
+.header-nav ul
+{
+     /* Definir posicionamento do elemento.*/
+     display: flex;
+}
+
+.header-nav li
+{
+    /* Definir margem externa entre os itens da lista.*/
+    margin: 0 10px;   
+}
+
+.header-nav a
+{
+    font-size: .9rem;
+    /* Dar mais vida a fonte. */
+    font-weight: 800;
+    /* Definir efeito de transição ao passar o mouse sobre o link. */
+    transition: .5s;
+}
+
+.header-nav a:hover
+{
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo - Funcionalidade 4 - Reports */
+
+/* section que contém o formulário. */
+.form-section 
+{
+    width: 50%;
+    height: 40%;
+    margin: 10%;
+    padding: 1%;
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(214, 212, 212);
+}
+
+/* Estilização do botão. */
+.form-btn
+{
+
+    /* Editar borda do link */
+    border: 1px solid #50f;
+    background-color: #50f;
+    color: rgb(255, 255, 255);
+    /* Aumentar o padding*/
+    padding: 12px 30px;
+    /*Arredondar bordas.*/
+    border-radius: 70px;
+  font-weight: 700;
+  /* Define a forma de exibição do texto, se maiúsculo ou minúsculo. */
+  text-transform: capitalize;
+  /* Definir transição do efeito hover definido abaixo. */
+  transition: .5s;
+}
+
+/* Efeito ao mover o cursor sobre o botão. */
+.form-btn:hover
+{
+    color: black
 }
