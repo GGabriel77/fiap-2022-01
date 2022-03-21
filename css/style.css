@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* Importação da fonte da IdWall */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.menu {
+    margin: auto;
+    padding: 0%;
+    /* Definir altura como automática. */
+    height: 80px;
+    background-color: #50f;
+    padding: 0 20px; /*Margem interna cima/baixo = 0 e direita-esquerda = 20px.*/
+    color: white;
+    display: flex;
+    /* Define onde cada item será exibido horizontalmente em relação ao container. */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  /* Título principal */
+  /* .title-main
+  {
+
+  } */
+  
+  .idwall {
+    width: 80px;
+  }
+  
+  .header-nav ul {
+    /* Deixar um elemento ao lado do outro dentro do container. */
+    display: flex;
+  }
+  
+  .header-nav li {
+    /* Definir margem externa entre os itens da lista. */
+    margin: 0 10px;
+  }
+  
+  .header-nav a {
+    font-size: 0.9rem;
+    /* Dar mais vida a fonte. */
+    font-weight: 800;
+    /* Definir efeito de transição ao passar o mouse sobre o link. */
+    transition: 0.5s;
+  }
+  
+  .header-nav a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+.form-area
+{
+    background-color: #50f;
+}
+
+.form
+{
+    position: absolute;
+    float: left;
+    left: 15px;
+    width: 35%;
+    padding: 20px;
+    margin: 8%;
+    margin-top: 250px;
+    /* background-color: #50f; */
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(214, 212, 212);
+    
+}
+
+.form-btn {
+    /* Editar borda do link */
+    border: 1px solid #50f;
+    background-color: #50f;
+    color: rgb(255, 255, 255);
+    /* Aumentar o padding - isso aumenta a zona clicável */
+    padding: 12px 30px;
+    /* Estilizar as bordas - arredondando. */
+    border-radius: 70px;
+    font-weight: 700;
+    /* Define a forma de exibição do texto, se maiúsculo ou minúsculo. */
+    text-transform: capitalize;
+    /* Definir transição do efeito hover definido abaixo. */
+    transition: 0.5s;
+  }
+
+/* Efeito ao passar o mouse no botão. */
+.form-btn:hover {
+    color:  #f3fcff;
+  }
+
+/* Lista de elementos do report */
+.list-report
+{
+    position: inherit;
+    float: right;
+    right: 15px;
+    padding: 10px;
+    margin: 29%;
+    margin-top: 250px;
+    width: 25%;
+    /* background-color: #50f; */
+    border: 1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(214, 212, 212);
+    
+    
+}
+
+
+.title-form
+{
+    font-weight: bold;
+}
+
+.title-list
+{
+    font-weight: bold;
+}
+
+/* Estilo do rodapé */
+/* .footer-down
+{
+    position: inherit;
+    color: white;
+    background-color: black;
+    height: 80px;
+    height: 100px;
+} */
+/* Editar texto do rodapé */
+/* .footer-text
+{
+    text-align: center;
+} */
+
+.select-item
+{
+    position: inherit;
+    
+}
+
+.line 
+{
+    width: 150px;
+    height: 4px;
+    background-color: #50f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
